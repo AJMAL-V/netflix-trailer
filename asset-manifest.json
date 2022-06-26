@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/netflix-trailer/static/css/main.4a26f11c.css",
+    "main.js": "/netflix-trailer/static/js/main.90b40302.js",
+    "index.html": "/netflix-trailer/index.html",
+    "main.4a26f11c.css.map": "/netflix-trailer/static/css/main.4a26f11c.css.map",
+    "main.90b40302.js.map": "/netflix-trailer/static/js/main.90b40302.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a26f11c.css",
+    "static/js/main.90b40302.js"
+  ]
+}
