@@ -1,0 +1,25 @@
+.banner{
+
+    background-size: cover;
+    height: 448px;
+    color:white ;
+    
+}
+.content{
+    padding-top: 140px;
+    height: 190px;
+    padding-left: 15px;
+
+}
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+
+}
+
+.fade{
+    height: 7.4rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.1),#111);
+   
+}

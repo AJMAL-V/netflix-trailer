@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Banner from './Compontents/Banner/Banner';
+import NavBar from './Compontents/NavBar/NavBar';
+import RowPost from './Compontents/RowPost/RowPost';
+import {action,original,romance,comedy,documentaries,horror} from"./urls"
+// tmdb third party website used getting apis
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <NavBar/>
+       <Banner/>
+       <RowPost url={original} title="NetFlix Originals"/>
+       <RowPost url={action} title="Action" isSmall />
+       <RowPost url={comedy} title="Comedy" isSmall />
+       <RowPost url={romance} title="Romance" isSmall />
+       <RowPost url={documentaries} title="Documentaries" isSmall />
+       <RowPost url={horror} title="Horror" isSmall />
     </div>
   );
 }
